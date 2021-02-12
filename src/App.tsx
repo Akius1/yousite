@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import PageLayout from './Views/PageLayout/PageLayout';
+import Introduction from './Components/Introduction/Introduction.component';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PageLayout>
+      <Introduction
+        name="UgoZeal"
+        twitter_link="twitter"
+        linkedin_link="linkedin"
+        facebook_link="facebook"
+        email="ugozeal@gmail.com"
+        job_role="IOS Software Engineer"
+        experince="2 years Node JS and React developer"
+        address="Lagos, Nigeria"
+      />
+    </PageLayout>
   );
 }
 
