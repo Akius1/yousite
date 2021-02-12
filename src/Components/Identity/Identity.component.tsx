@@ -11,7 +11,6 @@ interface identityProps {
 
 const Identity: React.FC<identityProps> = ({ comment }) => {
     const IdentityContainer = styled.div`
-  border: 2px solid red;
     @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap");
     position: relative;
     left: 50%;

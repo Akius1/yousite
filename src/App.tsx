@@ -20,7 +20,7 @@ function App() {
         address="Lagos, Nigeria"
       />
       <ProjectPage />
-      <AboutPage/>
+      <AboutPage />
     </PageLayout>
   );
 }

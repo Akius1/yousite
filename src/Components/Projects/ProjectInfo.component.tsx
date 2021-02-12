@@ -8,8 +8,7 @@ interface ProjectInfoProps {
 }
 const ProjectInfo: React.FC<ProjectInfoProps> = ({ name, text, title }) => {
   const ProjectInfoContainer = styled.div`
-  border: 2px solid black;
-    max-width: 90%;
+    max-width: 100%;
     margin-top: 50px;
     .home-project__content-head {
       display: inline-block;
